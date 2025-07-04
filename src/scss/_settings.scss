@@ -20,6 +20,11 @@ body.banking-landing {
   background-color: transparent;
 }
 
+.banking-landing .header .logo img {
+  max-width: 180px;
+  mix-blend-mode: multiply;
+}
+
 // .page__body {
 //   margin: 0;
 //   min-width: 360px;

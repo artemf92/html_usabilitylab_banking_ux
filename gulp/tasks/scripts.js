@@ -2,6 +2,7 @@ import browserSync from 'browser-sync';
 import webpackStream from 'webpack-stream';
 import plumber from 'gulp-plumber';
 import notify from 'gulp-notify';
+import webpack from 'webpack';
 
 export const scripts = () => {
   return app.gulp.src(app.paths.srcMainJs)
@@ -32,6 +33,13 @@ export const scripts = () => {
           }
         }]
       },
+      // plugins: [
+      //   new webpack.ProvidePlugin({
+      //     $: 'jquery',
+      //     jQuery: 'jquery',
+      //     'window.jQuery': 'jquery',
+      //   }),
+      // ],
       devtool: !app.isProd ? 'source-map' : false
     }))
     .on('error', function (err) {

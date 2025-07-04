@@ -1,0 +1,30 @@
+{
+  "html_usabilitylab_banking_ux": {
+    "src/js/components/banking.js.git": [
+      {
+        "date": "2025-07-04T09:33:43.417Z",
+        "user": {
+          "name": "Artem Frolov",
+          "email": "fa92@live.ru"
+        },
+        "timeSpent": 36
+      },
+      {
+        "date": "2025-07-04T09:34:06.691Z",
+        "user": {
+          "name": "Artem Frolov",
+          "email": "fa92@live.ru"
+        },
+        "timeSpent": 23
+      },
+      {
+        "date": "2025-07-04T09:34:34.350Z",
+        "user": {
+          "name": "Artem Frolov",
+          "email": "fa92@live.ru"
+        },
+        "timeSpent": 28
+      }
+    ]
+  }
+}
